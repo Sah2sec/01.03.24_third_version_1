@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+body {
+    margin: 0px;
+    background-image: url(images/D.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1100px;
+    background-position: center;
+    background-color: rgba(102, 99, 15, 0.629);
+    /* background: rgb(246,65,11); */
+    /* background: radial-gradient(circle, rgba(246,65,11,1) 0%, rgba(12,217,255,1) 100%); */
+
+    
+}

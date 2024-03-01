@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+
+body {
+    margin: 0px;
+    background-image: url(images/D.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:1100px;
+    background-position: center;
+    background-color: rgba(102, 99, 15, 0.629);
+    /* background: rgb(246,65,11); */
+    /* background: radial-gradient(circle, rgba(246,65,11,1) 0%, rgba(12,217,255,1) 100%); */
+
+    
+}
+
+
+
+div.tovary_head {
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    background-position: center; */
+    justify-content: space-around;
+    display: flex;
+   
+}
+
+div.tovary_head .tovary_best {
+    margin-top: 3%;
+
+    width: 40%;
+    background-color: rgb(115, 173, 139);
+    border-radius: 30px;
+    
+}
+div.tovary_head .tovary_best img {
+    width: 98%;
+    align-self: center;
+}
+
+
+
+
+
+
+div.tovary_head .tovary_other {
+    margin-top: 3%;
+    border-radius: 30px;
+    background-color: rgba(137, 43, 226, 0.422);
+    width: 59%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+div.tovary_head .tovary_other .tovary_other_other {
+    background-color: rgba(0, 0, 255, 0.656);
+    width: 48%;
+    border-radius: 35px;    
+    
+}
+div.tovary_head .tovary_other .tovary_other_other h1 {
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+div.tovary_head .tovary_other .tovary_other_other b {
+    text-align: center;
+    text-size-adjust: 50%;
+}
+div.tovary_head .tovary_other .tovary_other_other img {
+    align-items: center;
+    width: 80%;
+}
